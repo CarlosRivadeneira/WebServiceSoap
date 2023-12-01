@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33801.468
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SOAPWebService", "SOAPWebService\", "{E2747C1E-384D-4A31-861C-4002B69DEEAB}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_56514"
+		Debug.AspNetCompiler.PhysicalPath = "SOAPWebService\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_56514\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_56514"
+		Release.AspNetCompiler.PhysicalPath = "SOAPWebService\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_56514\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "56514"
+		SlnRelativePath = "SOAPWebService\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{4A6B56B4-3763-4952-9DEC-79B66AB6174C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E2747C1E-384D-4A31-861C-4002B69DEEAB} = {E2747C1E-384D-4A31-861C-4002B69DEEAB}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2747C1E-384D-4A31-861C-4002B69DEEAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2747C1E-384D-4A31-861C-4002B69DEEAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2747C1E-384D-4A31-861C-4002B69DEEAB}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2747C1E-384D-4A31-861C-4002B69DEEAB}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{4A6B56B4-3763-4952-9DEC-79B66AB6174C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A6B56B4-3763-4952-9DEC-79B66AB6174C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A6B56B4-3763-4952-9DEC-79B66AB6174C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A6B56B4-3763-4952-9DEC-79B66AB6174C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BCF5468A-E840-40E8-978D-53B2D083A629}
+	EndGlobalSection
+EndGlobal
